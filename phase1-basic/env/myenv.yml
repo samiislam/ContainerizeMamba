@@ -1,0 +1,16 @@
+name: myenv
+channels:
+  - conda-forge
+dependencies:
+  - matplotlib
+  - numpy
+  - pandas
+  - scikit-learn
+  - seaborn
+  - plotly
+  - ipython
+  - ipykernel
+  - cython
+  - jupyterlab
+  - scipy
+  - ipympl

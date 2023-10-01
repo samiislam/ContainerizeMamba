@@ -1,0 +1,13 @@
+services:
+  lab:
+    image: my-lab
+    container_name: lab
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8888:8888
+    tty: true
+    command: bash -c "./start"
+    volumes:
+      - .\notebooks:/notebooks
